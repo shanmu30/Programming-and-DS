@@ -2,7 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 vector<int> selection(vector<int> arr)
-{
+{    
     int minind;
     static int count=0;
     int n=arr.size();
@@ -21,8 +21,6 @@ vector<int> selection(vector<int> arr)
     cout<<count<<endl;
     return arr;
 }
-
-
 int main()
 {
     int x,n;
